@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Emperium" nameDescription="Emperium" race="fire" experience="0" speed="0" manacost="0">
+  <health now="25000" max="25000"/>
+	<look typeex="8635"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+	<script>
+		<event name="pre_empes"/>
+	</script>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+  <attacks>
+  </attacks>
+  <defenses armor="10" defense="10"/>
+  <elements>
+	<element icePercent="-100"/>
+	<element firePercent="100"/>
+	<element holyPercent="100"/>
+	<element deathPercent="100"/>
+	<element physicalPercent="-25"/>
+	<element earthpercent="100"/>
+	<element energyPercent="-50"/>
+  </elements>
+  <immunities>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+  </voices>
+  <loot>
+  </loot>
+</monster>

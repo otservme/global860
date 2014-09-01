@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hellgorak" nameDescription="a hellgorak" race="blood" experience="10000" speed="360" manacost="0">
+    <health now="40000" max="40000"/>
+    <look type="12" head="19" body="96" legs="21" feet="81" corpse="6068"/>
+    <targetchange interval="5000" chance="8"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="0"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="0"/>
+        <flag convinceable="0"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="85"/>
+        <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" skill="130" attack="130"/>
+        <attack name="energy" interval="1000" chance="11" length="8" spread="0" min="-250" max="-819">
+            <attribute key="areaEffect" value="purpleenergy"/>
+        </attack>
+        <attack name="manadrain" interval="2000" chance="14" radius="5" target="0" min="-90" max="-500">
+            <attribute key="areaEffect" value="stun"/>
+        </attack>
+        <attack name="fire" interval="1000" chance="11" radius="5" target="1" min="-50" max="-520">
+            <attribute key="areaEffect" value="firearea"/>
+        </attack>
+        <attack name="lifedrain" interval="2000" chance="5" radius="7" target="0" min="0" max="-150">
+            <attribute key="areaEffect" value="poff"/>
+        </attack>
+    </attacks>
+    <defenses armor="70" defense="65">
+        <defense name="healing" interval="1000" chance="11" min="400" max="900">
+            <attribute key="areaEffect" value="greenshimmer"/>
+        </defense>
+    </defenses>
+    <elements>
+        <element icePercent="99"/>
+        <element energyPercent="99"/>
+        <element earthPercent="99"/>
+        <element holyPercent="99"/>
+        <element deathPercent="99"/>
+        <element firePercent="99"/>
+        <element drownPercent="-50"/>
+    </elements>
+    <immunities>
+        <immunity lifedrain="0"/>
+        <immunity paralyze="1"/>
+        <immunity invisible="1"/>
+    </immunities>
+    <voices interval="5000" chance="0">
+        <voice sentence="I'll sacrifice yours souls to seven!"/>
+        <voice sentence="I'm bad news for you mortals!"/>
+        <voice sentence="No man can defeat me!"/>
+        <voice sentence="Your puny skills are no match for me."/>
+        <voice sentence="I smell your fear."/>
+        <voice sentence="Delicious!"/>
+    </voices>
+	<summons>
+		<summon name="Dreadbeast" interval="2000" chance="10" max="4"/>
+	</summons>
+    <loot>
+        <item id="6500" chance="100000" chancemax="2" count="2"/>
+        <item id="2152" chance="80000" chancemax="29"/>
+        <item id="2148" chance="80000" countmax="100"/>
+        <item id="2148" chance="70000" countmax="100"/>
+        <item id="1987" chance="100000">
+            <inside>
+                <item id="2148" chance="60000" countmax="83"/>
+                <item id="7368" chance="100000" countmax="25"/>
+            </inside>
+        </item>
+    </loot>
+</monster>

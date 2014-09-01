@@ -1,0 +1,105 @@
+[2:17:18.255] [TFS] Revisado por Chaitosoft.com - a sua loja de otserv, version 0.3.7_SVN (Crying Damson)
+[2:17:18.255] Compiled with GNU C++ version 4.6.3 (x86_64: 1) at May 26 2014, 21:11:30.
+[2:17:18.255] A server developed by Elf, Talaturen, Dalkon, BeniS, Tryller and Kornholijo.
+[2:17:18.255] Visit our forum for updates, support and resources: http://otland.net.
+
+[2:17:18.255] >> Loading config (config.lua)
+[2:17:18.255] > Opening logs
+[2:17:18.255] > Using SHA1 encryption
+[2:17:18.255] >> Checking software version...
+[2:17:18.255] > Ignoring version check, using SVN
+[2:17:18.257] >> Loading RSA key
+[2:17:18.257] > Calculating dmp1, dmq1 and iqmp for RSA... done
+[2:17:18.257] >> Starting SQL connection
+[2:17:18.258] >> Running Database Manager
+[2:17:18.279] > Optimizing table: account_viplist... [success]
+[2:17:18.282] > Optimizing table: accounts... [success]
+[2:17:18.284] > Optimizing table: bans... [success]
+[2:17:18.286] > Optimizing table: environment_killers... [success]
+[2:17:18.288] > Optimizing table: global_storage... [success]
+[2:17:18.290] > Optimizing table: guild_invites... [success]
+[2:17:18.292] > Optimizing table: guild_kills... [success]
+[2:17:18.294] > Optimizing table: guild_ranks... [success]
+[2:17:18.296] > Optimizing table: guild_wars... [success]
+[2:17:18.298] > Optimizing table: guilds... [success]
+[2:17:18.300] > Optimizing table: house_auctions... [success]
+[2:17:18.302] > Optimizing table: house_data... [success]
+[2:17:18.304] > Optimizing table: house_lists... [success]
+[2:17:18.316] > Optimizing table: houses... [success]
+[2:17:18.317] > Optimizing table: killers... [success]
+[2:17:18.319] > Optimizing table: market_history... [success]
+[2:17:18.321] > Optimizing table: market_offers... [success]
+[2:17:18.323] > Optimizing table: player_advances... [success]
+[2:17:18.325] > Optimizing table: player_deaths... [success]
+[2:17:18.327] > Optimizing table: player_depotitems... [success]
+[2:17:18.329] > Optimizing table: player_items... [success]
+[2:17:18.330] > Optimizing table: player_killers... [success]
+[2:17:18.332] > Optimizing table: player_namelocks... [success]
+[2:17:18.334] > Optimizing table: player_skills... [success]
+[2:17:18.336] > Optimizing table: player_spells... [success]
+[2:17:18.338] > Optimizing table: player_statements... [success]
+[2:17:18.340] > Optimizing table: player_storage... [success]
+[2:17:18.342] > Optimizing table: player_viplist... [success]
+[2:17:18.345] > Optimizing table: players... [success]
+[2:17:18.347] > Optimizing table: server_config... [success]
+[2:17:18.349] > Optimizing table: server_motd... [success]
+[2:17:18.350] > Optimizing table: server_record... [success]
+[2:17:18.352] > Optimizing table: server_reports... [success]
+[2:17:18.354] > Optimizing table: tile_items... [success]
+[2:17:18.356] > Optimizing table: tile_store... [success]
+[2:17:18.358] > Optimizing table: tiles... [success]
+[2:17:18.360] > Optimizing table: z_changelog... [success]
+[2:17:18.360] >> Loading items (OTB)
+[2:17:18.376] >> Loading items (XML)
+[2:17:18.548] >> Loading groups
+[2:17:18.548] >> Loading vocations
+[2:17:18.549] >> Loading outfits
+[2:17:18.549] >> Loading chat channels
+[2:17:18.550] >> Loading script systems
+
+>> Loading Demon Oak Lib V0.70 REV: 1 (June 26 2012) By Darkhaos, edited by Printer (Contact: http://otland.net/members/darkhaos/)
+
+[!] -> Checking demon oak lib...
+[!] ->  0 problems loaded in 0.01 seconds.
+
+[!] ->  Demon Oak Lib loaded in 0.01 seconds.
+
+[27/5/2014 2:17:18] > Loading weapons... [Warning - Weapons::registerEvent] Duplicate registered item with id: 0
+[27/5/2014 2:17:18] done.
+[27/5/2014 2:17:18] > Preparing weapons... done.
+[27/5/2014 2:17:19] > Loading spells... done.
+[27/5/2014 2:17:23] > Loading actions... done.
+[27/5/2014 2:17:23] > Loading talkactions... done.
+[27/5/2014 2:17:26] > Loading movements... done.
+[27/5/2014 2:17:26] > Loading creaturescripts... done.
+[27/5/2014 2:17:26] > Loading globalscripts... done.
+[27/5/2014 2:17:26] >> Loading mods...
+[27/5/2014 2:17:26] > Loading custommonsters.xml... done.
+[27/5/2014 2:17:26] > Loading fragremover.xml... done, but disabled.
+[27/5/2014 2:17:26] > 2 mods were loaded (1 disabled).
+[27/5/2014 2:17:26] >> Loading experience stages
+[27/5/2014 2:17:26] >> Loading quests
+[27/5/2014 2:17:26] >> Loading monsters
+[27/5/2014 2:17:26] >> Loading raids
+[27/5/2014 2:17:26] >> Loading map and spawns...
+[27/5/2014 2:17:28] > Map size: 33536x33024.
+[27/5/2014 2:17:28] > Map descriptions: 
+[27/5/2014 2:17:28] "Saved with Remere's Map Editor 2.2"
+[27/5/2014 2:17:28] ""
+[27/5/2014 2:17:29] Duplicate uniqueId 2187
+[27/5/2014 2:17:29] Duplicate uniqueId 9532
+[27/5/2014 2:17:47] > Loading time: 20.278 seconds.
+[27/5/2014 2:17:47] [Warning - Spawns::loadFromXml] Dragon ( 31198 / 31218 / 006 ) spawntime cannot be less or equal than 1 seconds.
+[27/5/2014 2:17:47] [Warning - Spawns::loadFromXml] Dragon ( 31198 / 31218 / 006 ) spawntime cannot be less or equal than 1 seconds.
+[27/5/2014 2:17:47] [Warning - Houses::loadFromXml] House entry not set for:  (489)
+[27/5/2014 2:17:47] > Parsing time: 0.689 seconds.
+[27/5/2014 2:17:48] > Synchronization time: 0.312 seconds.
+[27/5/2014 2:17:48] > Unserialization time: 0.007 seconds.
+[27/5/2014 2:17:48] >> Checking world type... Open PvP
+[27/5/2014 2:17:48] >> Starting to dominate the world... done.
+[27/5/2014 2:17:48] >> Initializing game state and binding services...
+[27/5/2014 2:17:48] > Global IP address(es): 0.0.0.0
+[27/5/2014 2:17:48] > Bound ports: 7171	7172	
+[27/5/2014 2:17:48] >> Everything smells good, server is starting up...
+[27/5/2014 2:17:49] >> NOMEDOOT server Online!
+

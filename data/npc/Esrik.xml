@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Esrik" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+	<health now="185" max="185"/>
+	<look type="71" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="goods;" />
+		<parameter key="keyword_reply1" value="Hello, to sell zaoan items say {trade} see i pay good."/>
+        <parameter key="message_farewell" value="Good bye, |PLAYERNAME|."/>
+		<parameter key="message_walkaway" value="Good bye." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_sendtrade" value="Of course, just browse through my wares." />
+		<parameter key="message_greet" value="Hello, to sell zaoan items say {trade} see i pay good." />
+		<parameter key="shop_sellable" value="scyzoryk,12621,40000;scyzoryk,11319,100;scyzoryk,12568,50000;scyzoryk,11296,45000;obsidian knife,11234,35000;shovel,11301,30000;backpack,12574,28000;fishing rod,11300,16500;rope,11295,14000;machete,11298,14000;bag,11302,10000;orange backpack,11299,10000;orange bag,11297,5000;" />
+	</parameters>
+</npc>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Yaman The Wayfarer" script="data/npc/scripts/wrathofemperoraddon.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="367" head="116" body="95" legs="0" feet="114" addons="3"/>
+	<parameters>
+	<parameter key="message_greet" value="Ola |PLAYERNAME|. Para voce achar minha sala secreta, voce teve de enfrentar e vencer terriveis missoes, entao voce merece uma vestimenta de recompensa para provar para os demais que voce e um bravo 'WAYFARER'." />
+	</parameters>
+</npc>

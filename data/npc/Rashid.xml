@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Rashid" script="data/npc/scripts/default.lua" walkinterval="3000" floorchange="0">
+	<look type="146" head="119" body="118" legs="119" feet="132" addons="3" />
+	<parameters>
+		<parameter key="message_greet" value="Ah, a customer! Be greeted, |PLAYERNAME|!" />
+		<parameter key="message_sendtrade" value="Take all the time you need to decide what you want!" />
+		<parameter key="message_needmoremoney" value="You dont have not enough of gold." />
+		<parameter key="message_decline" value="|TOTALCOST| is a very good price |PLAYERNAME|." />
+		<parameter key="message_farewell" value="Farewell, |PLAYERNAME|, may the winds guide your way." />
+		<parameter key="message_walkaway" value="Come back soon!" />
+		<parameter key="message_idletimeout" value="Good bye, |PLAYERNAME|!" />
+ 
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;name;offers;ab\'dendriel;desert;karmia;cormaya;darashia;premy island;bibula;greenshore;moria;blood bay;northport;port hope;senja;svargrond;thalia;vega;venore;time;king" />
+		<parameter key="keyword_reply1" value="I am a travelling trader. I don't buy everything, though. And not from everyone, for that matter." />
+		<parameter key="keyword_reply2" value="I am Rashid, son of the desert." />
+		<parameter key="keyword_reply3" value="Of course, old friend. You can also browse only armor, legs, shields, helmets, boots, weapons, enchanted weapons, jewelry or miscellaneous stuff." />
+		<parameter key="keyword_reply4" value="Elves... I don't really trust them. All this talk about nature and flowers and treehugging... I'm sure there's some wicked scheme behind all this." />
+		<parameter key="keyword_reply5" value="My beloved hometown! Ah, the sweet scent of the desert sands, the perfect shape of the pyramids... stunningly beautiful." />
+		<parameter key="keyword_reply6" value="I have to go to Karmia once in a while, since the queen wishes to see my exclusive wares in regular intervals." />
+		<parameter key="keyword_reply7" value="Cormaya? Not a good place to make business, it's way too far and small." />
+		<parameter key="keyword_reply8" value="It's not the real thing, but almost as good. The merchants there claim ridiculous prices, which is fine for my own business." />
+		<parameter key="keyword_reply9" value="Ah yes, Premy Island! Such a lovely and quiet island! I usually make some nice business there." />
+		<parameter key="keyword_reply10" value="Too few customers there, it's not worth the trip." />
+		<parameter key="keyword_reply11" value="Um... I don't think so." />
+		<parameter key="keyword_reply12" value="I don't like being underground much. I also tend to get lost in these labyrinthine dwarven tunnels, so I rather avoid them." />
+		<parameter key="keyword_reply13" value="When you avoid the slums, it's a really pretty city. Almost as pretty as the governor's daughter." />
+		<parameter key="keyword_reply14" value="Um... I don't think so." />
+		<parameter key="keyword_reply15" value="I like the settlement itself, but I don't set my foot into the jungle. Have you seen the size of these centipedes??" />
+		<parameter key="keyword_reply16" value="Um... I don't think so." />
+		<parameter key="keyword_reply17" value="I wish it was a little bit warmer there, but with a good mug of barbarian mead in your tummy everything gets a lot cosier." />
+		<parameter key="keyword_reply18" value="I feel uncomfortable and rather unsafe in Thalia, so I don't really travel there." />
+		<parameter key="keyword_reply19" value="Um... I don't think so." />
+		<parameter key="keyword_reply20" value="Although it's the flourishing trade centre of Tibia, I don't like going there. Too much competition for my taste." />
+		<parameter key="keyword_reply21" value="It's almost time to journey on." />
+		<parameter key="keyword_reply22" value="Kings, queens, emperors and kaliphs... everyone claims to be different and unique, but actually it's the same thing everywhere." />
+ 
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="
+		
+		abyss hammer,			5891, 40000
+		
+		" />
+		<parameter key="shop_sellable" value="
+			assassin dagger,			7404, 40000;
+			skullcracker armor,			8889, 60000;
+			zaoan helmet,			11296, 40000;
+			abyss hammer,			11362, 10000;
+			abyss hammer,			11350, 12000;
+			abyss hammer,			11349, 15000;
+			abyss hammer,			11299, 10000;
+			abyss hammer,			11317, 7000;
+			abyss hammer,			7402, 15000;
+			abyss hammer,			12574, 30000;
+			abyss hammer,			11303, 10000;
+			abyss hammer,			11302, 30000;
+			abyss hammer,			11295, 15000;
+			abyss hammer,			11297, 8000;
+			abyss hammer,			11298, 10000;
+			abyss hammer,			2470, 50000;
+			abyss hammer,			2514, 50000;
+			abyss hammer,			7402, 10000;
+			abyss hammer,			2434, 4000;
+			abyss hammer,			2392, 5000;
+			
+			
+			
+			dreaded cleaver,7419,10000;composite hornbow,8855,25000;golden legs,2470,60000;royal helmet,2498,30000;dragon scale mail,2492,40000;dwarven armor,2503,30000;glacier robe,7897,11000;golden armor,2466,20000;hibiscus dress,8873,3000;leopard armor,3968,1000;glacier robe,7898,11000;glacier robe,7899,11000;glacier robe,7463,6000;glacier robe,8891,15000;glacier robe,6095,500;glacier robe,8889,18000;glacier robe,7884,11000;glacier robe,7896,11000;glacier robe,7895,11000;glacier robe,7894,11000;glacier robe,7464,850;glacier robe,5918,200;glacier robe,7885,11000;glacier robe,2541,80;glacier robe,2535,5000;glacier robe,2521,400;glacier robe,2520,30000;glacier robe,2536,9000;glacier robe,7460,1500;glacier robe,2540,2000;glacier robe,6131,150;glacier robe,3972,7500;glacier robe,2462,1000;glacier robe,7902,2500;glacier robe,7461,200;glacier robe,7901,2500;glacier robe,7900,2500;glacier robe,6096,1000;glacier robe,7462,400;glacier robe,5741,40000;glacier robe,7903,2500;glacier robe,3982,1000;glacier robe,7457,2000;glacier robe,7892,2500;glacier robe,7893,2500;glacier robe,7891,2500;glacier robe,2641,2000;glacier robe,5462,3000;glacier robe,2645,30000;glacier robe,7886,2500;glacier robe,7414,20000;glacier robe,7426,8000;glacier robe,7404,20000;glacier robe,3962,1500;glacier robe,7403,40000;glacier robe,7379,1500;glacier robe,7427,9000;glacier robe,7415,30000;glacier robe,7449,600;glacier robe,2439,110;glacier robe,2440,1000;glacier robe,7382,36000;glacier robe,7387,3000;glacier robe,7402,15000;glacier robe,7430,3000;glacier robe,2438,8000;glacier robe,7432,1000;glacier robe,2427,11000;glacier robe,2444,30000;glacier robe,2452,50000;glacier robe,2442,90;glacier robe,7389,30000;glacier robe,7422,25000;glacier robe,7424,5000;glacier robe,7381,300;glacier robe,7386,12000;glacier robe,7384,30000;glacier robe,2426,2000;glacier robe,7418,35000;glacier robe,7456,10000;glacier robe,7383,25000;glacier robe,6553,45000;glacier robe,7437,7000;glacier robe,2402,500;glacier robe,7452,5000;glacier robe,7425,500;glacier robe,7388,30000;glacier robe,2454,12000;glacier robe,7408,1500;g,7866,30000;g,7756,30000;g,7775,30000;g,7881,30000;g,7748,15000;g,7767,15000;g,7858,15000;g,7873,15000;g,7751,30000;g,7770,30000;g,7861,30000;aha,7876,30000;g,7746,30000;g,7765,30000;g,7856,30000;g,7871,30000;g,7745,25000;g,7764,25000;g,7855,25000;g,7870,25000;g,7753,12000;g,7772,12000;g,7863,12000;g,7878,12000;g,2142,200;g,2125,400;g,2142,250;g,6301,1000;g,2136,32000;g,2127,800;g,7888,1500;g,2179,8000;g,7889,1500;g,7890,1500;g,2171,2500;g,2123,30000;g,2133,2000;g,2135,200;g,2134,150;g,7887,1500;g,2110,200;g,5710,300;g,5810,500;g,3955,400;g,6300,1000
+		" />
+	</parameters>
+</npc>

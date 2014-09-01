@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raids>
+    <!-- 
+	// Raid System by 5mok3
+	// DO NOT CHANGE INTERVAL UNLESS YOU ARE SURE WHAT YOU ARE DOING!!
+	-->
+
+<raid name="Zulazza the Corruptor" file="Zulazza the Corruptor.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Morgaroth" file="Morgaroth.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="RatsThais" file="ratsthais.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="OrcsThais" file="OrcsThais.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Barbarian" file="Barbarian.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Demodras" file="Demodras.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Elfos" file="Elfs.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Ferumbras" file="Ferumbras.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Ghazbaran" file="Ghazbaran.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Halloween Hare" file="halloween.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Horned Fox" file="horned.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Necropharus" file="Necropharus.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Nomads" file="nomads.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Orshabaal" file="Orshabaal.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Pirates" file="Pirates.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Quaras" file="quaras.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Scarabs" file="Scarabs.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Old Widow" file="The Old Widow.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Undead Army" file="undead army.xml" interval2="30" margin="1000" enabled="yes"/>
+	<raid name="Undead Darashia" file="undead darashia.xml" interval2="30" margin="1000" enabled="yes"/>
+	<raid name="Sir Valorcrest" file="Sir Valorcrest.xml" interval2="30" margin="1000" enabled="yes"/>
+	<raid name="Zevelong Duskbringer" file="Zevelong Duskbringer.xml" interval2="30" margin="1000" enabled="yes"/>
+	<raid name="Diblis The Fair" file="Diblis The Fair.xml" interval2="30" margin="1000" enabled="yes"/>
+	<raid name="Arachir the Ancient One" file="Arachir the Ancient One.xml" interval2="30" margin="1000" enabled="yes"/>
+</raids>

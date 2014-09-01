@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Eye Of The Seven" nameDescription="an Eye of the Seven" species="undead" race="venom" experience="120" speed="0" manacost="0">
+    <health now="250" max="250"/>
+    <look type="109" head="20" body="30" legs="40" feet="50" corpse="3049"/>
+    <targetchange interval="1000" chance="10"/>
+    <strategy attack="1000" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="0"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="80"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+
+  <attack name="ice" interval="2000" chance="33" radius="1" target="1" min="-100" max="-110">
+		<attribute key="areaEffect" value="iceattack"/>
+                <attribute key="shootEffect" value="ice"/>
+  </attack>
+  <attack name="energy" interval="2000" chance="33" radius="1" target="1" min="-100" max="-120">
+		<attribute key="areaEffect" value="energy"/>
+                <attribute key="shootEffect" value="energy"/>
+  </attack>
+    </attacks>
+    <defenses armor="15" defense="20"/>
+    <immunities>
+      <immunity physical="1"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="1"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="0"/>
+    </immunities>
+    <loot>
+      <item id="2148" countmax="17" chance1="100000" chancemax="0"/>
+    </loot>
+  </monster>

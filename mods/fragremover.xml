@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mod name="Frag Remover" version="1.1" author="Hermes" contact="otland.net" enabled="no">
+	<action itemid="9969" event="script"></action>
+</mod>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="The monks are praying." />
+  <announce delay="20000" type="Event" message="Fernfang has returned to he's home in plains of havoc.!" />
+  <!--Single Spawns-->
+  <singlespawn delay="20000" name="Fernfang" x="32856" y="32332" z="7" />
+  <!--Area Spawns-->
+</raid>

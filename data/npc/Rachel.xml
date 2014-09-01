@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Rachel" script="data/npc/scripts/Asima.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="136" head="58" body="84" legs="86" feet="114" addons="0"/>
+<voices>
+<voice text="These impatient young brats!" interval2="110" margin="1" yell="no"/>
+</voices>
+    <parameters>
+        <parameter key="message_greet" value="Oh, please come in, |PLAYERNAME|. If you need magical equipment such as runes or wands, just ask me for a {trade}."/>
+        <parameter key="message_farewell" value="Good bye and come again."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;" />
+        <parameter key="keyword_reply1" value="I'm sorcerer and trade with all kinds of magic items." />
+    </parameters>
+</npc>

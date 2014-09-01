@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/private/forgottenserver/!svn/ver/1471/trunk/data/logs/server
+END
+out.log
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/private/forgottenserver/!svn/ver/1471/trunk/data/logs/server/out.log
+END
+error.log
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/private/forgottenserver/!svn/ver/1471/trunk/data/logs/server/error.log
+END

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creaturescripts>
+	<event type="login" name="PlayerLogin" event="script" value="login.lua"/>
+
+	<event type="login" name="viplogin" script="viplogin.lua"/>
+	<event type="advance" name="receba" script="premio.lua"/>
+	<event type="advance" name="fullhpmana" event="script" value="fullhpmana.lua"/>
+	<event type="login" name="expvip" script="expvip.lua"/> 
+
+	<event type="channeljoin" name="GuildEvents" event="script" value="guild.lua"/>
+	<event type="mailreceive" name="Mail" event="script" value="mail.lua"/>
+	<event type="reportbug" name="ReportBug" script="reportbug.lua"/>
+	<event type="login" name="firstitems" event="script" value="firstitems.lua"/>
+	<event type="advance" name="AdvanceSave" event="script" value="advancesave.lua"/>
+
+	<event type="think" name="Idle" event="script" value="idle.lua"/>
+	<event type="think" name="SkullCheck" event="script" value="skullcheck.lua"/>
+	<event type="kill" name="azerus3" script="azerus3.lua"/>  
+	<event type="kill" name="INQKill" event="script" value="inq/kill.lua"/> 
+	<event type="kill" name="DISKILL" event="script" value="yala/diseased.lua"/> 
+	<event type="kill" name="QUARAKILL" event="script" value="yala/quaras.lua"/> 
+	<event type="kill" name="KILLMORIK" event="script" value="yala/morik.lua"/> 
+	
+	<!-- Inquisition Full Quest -->
+	<event type="kill" name="inquisitionPortals" script="Inquisition.lua"/>
+	
+	<!-- Custom Scripts-->
+	<event type="death" name="onPrepareDeath" script="playerdeath.lua"/>
+	<event type="kill" name="KillingInTheNameOf" event="script" value="killinginthenameof.lua"/>
+	
+	<!-- Quests-->
+	<event type="logout" name="demonOakLogout" event="script" value="doq/demonOakLogout.lua"/>
+	<event type="death" name="demonOakDeath" event="script" value="doq/demonOakDeath.lua"/>
+	<event type="attack" name="demonOakAttack" event="script" value="doq/demonOakAttack.lua"/>
+ 	<event type="kill" name="svargrond_arena" event="script" value="arena_kill.lua"/>
+	<event type="death" name="PythiusTheRotten" event="script" value="PythiusTheRotten.lua"/>
+</creaturescripts>

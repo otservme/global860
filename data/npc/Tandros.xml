@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Tandros" script="data/npc/scripts/Asima.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="132" head="78" body="79" legs="113" feet="95" addons="0"/>
+<voices>
+<voice text="Potions, wands and runes for aspiring magicians." interval2="120" margin="1" yell="no"/>
+</voices>
+    <parameters>
+        <parameter key="message_greet" value="Oh, please come in, |PLAYERNAME|. If you need magical equipment such as runes or wands, just ask me for a {trade}."/>
+        <parameter key="message_farewell" value="Good bye and come again."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;" />
+        <parameter key="keyword_reply1" value="I'm sorcerer and trade with all kinds of magic items." />
+    </parameters>
+</npc>

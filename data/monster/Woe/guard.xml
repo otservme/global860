@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Guard" nameDescription="a guard" race="blood" experience="0" speed="220" manacost="0">
+	<health now="240000" max="240000"/>
+	<look type="57" corpse="6080"/>
+	<targetchange interval="10000" chance="1"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="30" attack="70"/>
+	</attacks>
+	<defenses armor="20" defense="22">
+		<defense name="healing" interval="1000" chance="17" min="30" max="50">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="speed" interval="1000" chance="10" speedchange="300" duration="3000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element holyPercent="50"/>
+		<element deathPercent="50"/>
+		<element physicalPercent="-15"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+
+	</voices>
+</monster>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raids>
+		<raid name="The Old Widow" file="The Old Widow.xml" interval2="35" margin="1800" enabled="yes"/>
+
+</raids>

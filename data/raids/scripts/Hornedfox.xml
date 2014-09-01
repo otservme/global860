@@ -1,0 +1,7 @@
+<raid>
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="The Hornedfox has appeared." />
+<singlespawn delay="2000" name="Minotaur mage" x="32466" y="31955" z="4" />
+<singlespawn delay="20000" name="the Horned Fox" x="32463" y="31954" z="4" />
+</raid>
+

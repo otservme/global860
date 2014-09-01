@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<npc name="Jean Pierre" script="data/npc/scripts/jean pierre.lua" walkinterval="2000">
+	<health now="100" max="100"/>
+<look type="104" head="20" body="30" legs="40" feet="50"/>
+
+	<parameters>
+		<parameter key="message_greet" value="Greetings, player. What are you doing out here?" />
+		<parameter key="message_farewell" value="Farewell, human." />		
+		<parameter key="message_decline" value="Well, obviously not." />		
+		<parameter key="message_walkaway" value="Farewell, human." />
+	</parameters>
+
+
+</npc>

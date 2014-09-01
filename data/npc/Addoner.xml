@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Addoner" script="data/npc/scripts/addon.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="134" head="78" body="88" legs="0" feet="88" addons="3"/>
+	<parameters>
+	<parameter key="message_greet" value="Greetings |PLAYERNAME|. I can sell you many nice addons and items! Just say 'addons' or 'trade'." />
+	
+	<parameter key="module_shop" value="1"/>
+	<parameter key="shop_buyable" value="Minotaur Leather,5878,1000;Ticker Event,6119,100000;Winning Lottery Ticket,5958,50000;Ankh,2193,2000;Demonic Essence,4000,5000;Magic Sulphur,5904,10000;Perfect Behemoth Fang,5893,6000;Iron Ore,5880,3000;Turtle Shell,5899,1200;Hardened Bone,5925,2000;Giant Spider Silk,5879,4000;Spool of Yarn,5886,30000;Honeycomb,5902,1000;Chicken feather,5890,1000;Lizard Leather,5876,2000;Red Dragon Leather,5948,2000;Iron Ore,5880,2000;Holy Orchid,5922,1500;Bat Wing,5894,1000;Ape Fur,5883,1000;Red Piece of Cloth,5911,2000;Brown Piece of Cloth,5913,1000;Yellow Piece of Cloth,5914,1000;White Piece of Cloth,5909,1500;Blue Piece of Cloth,5912,2000;Lizard Scale,5881,2000;Red Dragon Scale,5882,2000;Vampire Dust,5905,5000;Green Piece of Cloth,5910,2000;Wolf Paw,5897,1000;Bear Paw,5896,1000;Fish Fin,5895,10000;Eye Patch,6098,1000;Hook,6097,1000;Peg Leg,6126,1000;Behemoth Claw,5930,5000"/>
+	</parameters>
+	
+</npc>

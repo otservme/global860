@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quests>
+	<quest name="The Djinn War" startstorageid="9030" startstoragevalue="1">
+        <mission name="Secret Greeting" storageid="9030" startvalue="1" endvalue="1">
+            <missionstate id="0" description="Now you are ready to meet one of the Djinn leaders.\nRemeber they only answer, if you greet them with the secret word: DJANNI'HAH"/>
+	</mission>
+        <mission name="Mission 1 - The Supply Thief" storageid="100062" startvalue="1" endvalue="4">
+            <missionstate id="1" description="You have joined the Efreet Faction."/>
+	    <missionstate id="2" description="Ubaid wants you to meet with their general Baa'leal."/>
+	    <missionstate id="3" description="Baa'leal want you find the supply thief in Carlin."/>
+	    <missionstate id="4" description="Head back to Baa'leal and report about the supply thief."/>
+	</mission>
+	<mission name="Mission 2 - The Tear of Daraman" storageid="100062" startvalue="5" endvalue="8">
+	    <missionstate id="5" description="Baa'leal sends you to Alesar to continue with the missions."/>
+	    <missionstate id="6" description="Alesar wants you to sneak into Ashta'daramai and to steal the gemstone."/>
+	    <missionstate id="7" description="You have founded the gemstone, head back to Alesar."/>
+	    <missionstate id="8" description="Alesar wants you to speak with Malor about a new mission."/>
+	</mission>
+	<mission name="Mission 3 - Orc Fortress" storageid="100062" startvalue="9" endvalue="12">
+	    <missionstate id="9" description="Malor want you to retrieve a lamp from the Orc King in Ulderek's Rock."/>
+	    <missionstate id="10" description="Now you need to, sneak into the Blue Djinn fortress, and place it in Gabel's personal bedchamber.\nGo to the secret entrance to the Blue Djinn fortress, and take the stairs all the way to the top."/>
+	    <missionstate id="11" description="You successfully changed the lamp, now sneak out and report to Malor."/>
+	    <missionstate id="12" description="You have completed all missions. Malor allows you now to trade with his people."/>
+	</mission>
+        <mission name="Marid Mission 1" storageid="100064" startvalue="1" endvalue="6">
+            <missionstate id="1" description="You have joined the Marid Faction."/>
+	    <missionstate id="2" description="Ubaid wants you to meet with Bo'ques."/>
+	    <missionstate id="3" description="Bo'ques wants you to find a cookbook with exotic recipes."/>
+	    <missionstate id="4" description="Bring the cookbook to Bo'ques and he will reward you for your help."/>
+	    <missionstate id="5" description="Bo'ques said that Fa'hradin might have some work to you."/>
+	    <missionstate id="6" description="Continue your mission with Fa'hradin."/>
+	</mission>
+        <mission name="Marid Mission 2" storageid="100064" startvalue="7" endvalue="10">
+            <missionstate id="7" description="Fa'hradin wants you retrive a spy report from their spy which like cheese in the Green Djinn fortress.\n Also he clearly said to remeber this word: PIEDPIPER"/>
+	    <missionstate id="8" description="Bring the spy report back to Fa'hradin."/>
+	    <missionstate id="9" description="Fa'hradin is impressed about your work. So he told Gabel and you'll have to talk with Gabel."/>
+	    <missionstate id="10" description="Continue your mission with Gabel."/>
+	</mission>
+        <mission name="Marid Mission 3" storageid="100064" startvalue="11" endvalue="13">
+            <missionstate id="11" description="Gabel wants you travel to Ulderek's Rock and talk with the King of Orcs."/>
+	    <missionstate id="12" description="Now you need to, sneak into the Green Djinn fortress, and place it in Malor's personal bedchamber.\nGo to the secret entrance to the Green Djinn fortress, and take the stairs all the way to the top."/>
+	    <missionstate id="13" description="You successfully changed the lamp, now sneak out and report to Gabel."/>
+	    <missionstate id="14" description="You have completed all missions. Gabel allows you now to trade with his people."/>
+	</mission>
+	</quest>
+	<quest name="Demon Oak Quest" startstorageid="100072" startstoragevalue="1">
+	    <mission name="Mission 1 - Infested Area" storageid="100072" startvalue="1" endvalue="1">
+	    <missionstate id="1" description="You have explored the infested area, return to Oldrak and talk about the demon oak."/>
+	</mission>
+	<mission name="Mission 2 - Final Cut" storageid="100072" startvalue="2" endvalue="3">
+	    <missionstate id="2" description="By using the holy hallowed axe, you will be able to defeat the Demon Oak. Beware! Demon Oak will try to lure you with bribery."/>
+	    <missionstate id="3" description="You have defeated the Demon Oak! Return back to Oldrak and talk about the Demon Oak, he will greatly reward you."/>
+	</mission>
+	<mission name="Mission 3 - Final Location" storageid="100072" startvalue="4" endvalue="5">
+	    <missionstate id="4" description="Oldrak said, find a grave stone with inscripted text: Yesim Adeit. Which is located south of the infected area."/>
+	    <missionstate id="5" description="You have completed Demon Oak Quest! Oldrak is really thankful for your help."/>
+	</mission>
+	</quest>
+	<quest name="Evil of isle" startstorageid="100063" startstoragevalue="1">
+	<mission name="Method" storageid="100063" startvalue="1" endvalue="2">
+	    <missionstate id="1" description="Enter the room to the left and open the box."/>
+	    <missionstate id="2" description="Now go talk to Rapanaio about your first Mission."/>
+	</mission>
+        <mission name="Mission 1: Just A Fishing Trip" storageid="100063" startvalue="3" endvalue="5">
+	    <missionstate id="3" description="Fish a mechanical fish in the sewers of Yalahar. you will need to use nails as bait for those fish."/>
+	    <missionstate id="4" description="Bring the mechanical fish back to Rapanaio."/>
+	    <missionstate id="5" description="Continue your mission with Rapanaio."/>
+	</mission>
+	<mission name="Mission 2: A Potent Fuel" storageid="100063" startvalue="6" endvalue="7">
+	    <missionstate id="6" description="You need to bring 10 vials of Rum to Rapanaio."/>
+	    <missionstate id="7" description="Continue your mission with Rapanaio."/>
+	</mission>
+	<mission name="Mission 3: Something Sweet" storageid="100063" startvalue="8" endvalue="9">
+	    <missionstate id="8" description="Get a vial of Fruit Juice and bring it to Rapanaio."/>
+	    <missionstate id="9" description="Continue your mission with Rapanaio."/>
+	</mission>
+	<mission name="Mission 4: The Technomancer's Machine" storageid="100063" startvalue="10" endvalue="14">
+	    <missionstate id="10" description="Go to Scutty, he is located south-east of the Technomancer and ask him about Machine."/>
+	    <missionstate id="11" description="Scutty wants you to hit 6 Carrion Worms. Also he warned you that, if you hit a Drilling Worm. You need to pay him."/>
+	    <missionstate id="12" description="Report to Scutty about your mission and he will reward you as a thank you for your service."/>
+	    <missionstate id="13" description="Now bring the crate back to Rapanaio."/>
+	    <missionstate id="14" description="Continue your mission with Rapanaio."/>
+	</mission>
+	<mission name="Mission 5: The Map to Evil " storageid="100063" startvalue="15" endvalue="18">
+	    <missionstate id="15" description="Rapanaio wants you to talk with Mortimer about the Nautical Map."/>
+	    <missionstate id="16" description="Mortimer mentioned that, the map is burried under sand somewhere east between two mossy stones."/>
+	    <missionstate id="17" description="Bring the map to Rapanaio."/>
+	    <missionstate id="18" description="Continue your mission with Rapanaio."/>
+	</mission>
+	<mission name="Mission 6: The Secret" storageid="100063" startvalue="19" endvalue="20">
+	    <missionstate id="19" description="Rapanaio wants you to meet him downstairs."/>
+	    <missionstate id="20" description="Continue your mission with Rapanaio."/>
+	</mission>
+	<mission name="Mission 7: The Master of Evil" storageid="100063" startvalue="21" endvalue="24">
+	    <missionstate id="21" description="Rapanaio wants you to slay the Evil Mastermind."/>
+	    <missionstate id="22" description="Now head back to Rapanaio and tell him about your mission."/>
+	    <missionstate id="23" description="Now to getting your reward from the King Tibianus, you'll have to bring him the fan club membership."/>
+	    <missionstate id="24" description="You have completed all missions."/>
+	</mission>
+	</quest>
+	<quest name="Inquisition Quest" startstorageid="100078" startstoragevalue="1">
+	<mission name="Method" storageid="100078" startvalue="1" endvalue="1">
+	    <missionstate id="1" description="You have joined The Inquisition."/>
+	</mission>
+	<mission name="Mission 1: Interrogation" storageid="100078" startvalue="2" endvalue="4">
+	    <missionstate id="2" description="Your mission is to investigate the 5 guards in Thais regarding the Heretic behavior."/>
+	    <missionstate id="3" description="Now return to Henricus and talk about your next mission."/>
+	    <missionstate id="4" description="Talk to Henricus to continue with your missions."/>
+	</mission>
+	<mission name="Mission 2: Eclipse" storageid="100078" startvalue="5" endvalue="7">
+	    <missionstate id="5" description="Henricus tells you to get The Witches' Grimoire, he sends you to Femor Hills where you can fly to the witches' mountain."/>
+	    <missionstate id="6" description="Now return to Henricus and talk about your next mission."/>
+	    <missionstate id="7" description="Talk to Henricus to continue with your missions."/>
+	</mission>
+	<mission name="Mission 3: Vampire Hunt" storageid="100078" startvalue="8" endvalue="13">
+	    <missionstate id="8" description="Henricus wants you to find the Dwarfish Vampire Hunter, Storkus, located near Kazordoon."/>
+	    <missionstate id="9" description="Storkus wants you to bring him 20 Vampire Dusts."/>
+	    <missionstate id="10" description="Now he wants you to kill a vampire lord, The Count in the Green Claw Swamp."/>
+	    <missionstate id="11" description="Now return to Storkus and talk about your mission."/>
+	    <missionstate id="12" description="You've impressed Storkus. He wants you now head back to Henricus to talk about more missions."/>
+	    <missionstate id="13" description="Talk to Henricus to continue with your missions."/>
+	</mission>
+	<mission name="Mission 4: The Haunted Ruin" storageid="100078" startvalue="14" endvalue="16">
+	    <missionstate id="14" description="Henricus wants you to exorcism a old house in Liberty Bay with a special flask he gave you."/>
+	    <missionstate id="15" description="You've completed the exorcism. Head back to Henricus and talk about your mission."/>
+	    <missionstate id="16" description="Talk to Henricus to continue with your missions."/>
+	</mission>
+	<mission name="Mission 5: Essential Gathering" storageid="100078" startvalue="17" endvalue="19">
+	    <missionstate id="17" description="Henricus wants you to get him 20 Demonic Essences."/>
+	    <missionstate id="18" description="Talk to Henricus about a outfit."/>
+	    <missionstate id="19" description="Talk to Henricus to continue with your missions."/>
+	</mission>
+	<mission name="Mission 6: The Demon Ungreez" storageid="100078" startvalue="20" endvalue="22">
+	    <missionstate id="20" description="Henricus wants you avenge him, to kill a demon called Ungreez."/>
+	    <missionstate id="21" description="Now head back to Henricus and talk about your mission."/>
+	    <missionstate id="22" description="You've completed all Henricus missions."/>
+	</mission>
+	<mission name="Mission 7: The Shadow Nexus" storageid="100080" startvalue="1" endvalue="4">
+	    <missionstate id="1" description="In order to do this mission, you must go to the Demon Forge."/>
+	    <missionstate id="2" description="Your mission is now to destroy the Shadow Nexus by pouring the holy water you got from Henricus."/>
+	    <missionstate id="3" description="Now return to Henricus and talk about your mission."/>
+	    <missionstate id="4" description="You have completed the Inquisition Quest."/>
+	</mission>
+	<mission name="The Dark Path: Ushuriel" storageid="100079" startvalue="1" endvalue="3">
+	    <missionstate id="1" description="You will be in a path with many Hellfire Fighters, Massive Fire Elementals, Stone Golems, Gargoyles, Behemoths and Juggernauts.\nUntil you reach to a teleport to Ushuriel room."/>
+	    <missionstate id="2" description="Now you'll have to face this demon and slain it."/>
+	    <missionstate id="3" description="You have completed this mission."/>
+	</mission>
+	<mission name="The Crystal Caves: Zugurosh" storageid="100079" startvalue="4" endvalue="6">
+	    <missionstate id="4" description="You will be greeted by several Crystal Spiders, Spectres and Ice Golems, and later Hands of Cursed Fate.\nUntil you reach to a teleport to Zugurosh room."/>
+	    <missionstate id="5" description="Now you'll have to face this demon and slain it."/>
+	    <missionstate id="6" description="You have completed this mission."/>
+	</mission>
+	<mission name="The Blood Halls: Madareth" storageid="100078" startvalue="23" endvalue="25">
+	    <missionstate id="23" description="Here you will face a great number of Dark Torturers, Betrayed Wraiths, Lost Souls and Hand of Cursed Fate.\nUntil you reach to a teleport to Madareth's Ward."/>
+	    <missionstate id="24" description="Now you'll have to face this demon and slain it."/>
+	    <missionstate id="25" description="You have completed this mission."/>
+	</mission>
+	<mission name="The Vats: Latrivan and Golgordan" storageid="100078" startvalue="26" endvalue="28">
+	    <missionstate id="26" description="The Vats contains many Sons of Verminor, Plaguesmiths, Blightwalkers and Defilers.\nUntil you reach to a portal which will lead you to Latrivan and Golgordan."/>
+	    <missionstate id="27" description="Now you'll have to face these demon's and slain them."/>
+	    <missionstate id="28" description="You have completed this mission."/>
+	</mission>
+	<mission name="The Arcanum: Annihilon" storageid="100078" startvalue="29" endvalue="32">
+	    <missionstate id="29" description="The Arcanum is a place with Warlocks, Liches, several Hand of Cursed Fate, Braindeaths, Vampires, Undead Dragons, Efreets, Diabolic Imps, Demons. Until you reach to a teleport to The Soul Wells."/>
+	    <missionstate id="30" description="The Soul Wells is full of Betrayed Wraiths, Spectres, Lost Souls, Phantasms, Demons and possibly more\nUntil you reach to a teleport to the room of Annihilon."/>
+	    <missionstate id="31" description="Now you'll have to face this demon and slain it."/>
+	    <missionstate id="32" description="You have completed this mission."/>
+	</mission>
+	<mission name="The Hive: Hellgorak" storageid="100078" startvalue="33" endvalue="35">
+	    <missionstate id="33" description="You will instantly be greeted by multiple Nightmares, Bonebeasts, Sons of Verminor and Juggernauts.\nUntil you reach to a teleport to Hellgorak room."/>
+	    <missionstate id="34" description="Now you'll have to face this demon and slain it."/>
+	    <missionstate id="35" description="You have completed this mission."/>
+	</mission>
+	</quest>
+	<quest name="In Service Of Yalahar Quest" startstorageid="100086" startstoragevalue="1">
+	<mission name="Mission 01: Something Rotten" storageid="100086" startvalue="1" endvalue="3">
+	    <missionstate id="1" description="Help Palimuth with some sewer malfunctions below Yalahar.\n There are 4 places where you need to go marked with an X on your map."/>
+	    <missionstate id="2" description="You successfully eliminated the sewer problems which Yalahar had.\nReport to Palimuth."/>
+	    <missionstate id="3" description="Talk to Palimuth to continue with your missions."/>
+	</mission>
+	<mission name="Mission 02: Watching the Watchmen" storageid="100086" startvalue="4" endvalue="6">
+	    <missionstate id="4" description="Palimuth wants you to find all 7 guards and retrive the reports from them."/>
+	    <missionstate id="5" description="You managed to gather all seven reports from Yalahar's watchmen. Report back to Palimuth."/>
+	    <missionstate id="6" description="Talk to Palimuth to continue with your missions."/>
+	</mission>
+	<mission name="Mission 03: Death to the Deathbringer" storageid="100086" startvalue="7" endvalue="9">
+	    <missionstate id="7" description="You'll have to kill 3 plague bearers.\nPalimuth wants you to burn the papers.\nAzerus wants you to retrive the papers to him."/>
+	    <missionstate id="8" description="You choose between burning the papers or retrive it to Azerus."/>
+	    <missionstate id="9" description="Talk to Azerus to continue with your missions."/>
+	</mission>
+	<mission name="Mission 04: Good to be Kingpin" storageid="100086" startvalue="10" endvalue="12">
+	    <missionstate id="10" description="For this mission you are asked to go to the Trade Quarter.\nPalimuth wants you to negotiate with Mr. West.\nAzerus wants you to threaten Mr. West"/>
+	    <missionstate id="11" description="Return to the side you choosed."/>
+	    <missionstate id="12" description="Talk to Azerus to continue with your missions."/>
+	</mission>
+	<mission name="Mission 05: Food or Fight" storageid="100086" startvalue="13" endvalue="17">
+	    <missionstate id="13" description="On this mission you are asked to find a druid by the name of Tamerin.\nYalahari wants you to get Tamerin to breed warbeasts.\n Palimuth begs for you to request that Tamerin breeds cattle."/>
+	    <missionstate id="14" description="Tamerin wants you to fufil him 2 favors, before he takes any orders.\nHe need a bottle of animal cure.\nThen he need you to kill Morik the gladiator and bring his helmet as proof."/>
+	    <missionstate id="15" description="Now select between Palimuth(cattle) or Yalahari(Warbeasts)."/>
+	    <missionstate id="16" description="If you choosed Cattle return to Palimuth.\nIf you choosed Warbeasts return to Yalahari."/>
+	    <missionstate id="17" description="Talk to Azerus to continue with your missions."/>
+	</mission>
+	<mission name="Mission 06: Frightening Fuel" storageid="100086" startvalue="18" endvalue="20">
+	    <missionstate id="18" description="Your mission is to charge the charm with tormented souls.\nYalahari wants the charged Ghost Charm.\nPalimuth wants the Charged Ghost Charm in order to free those souls."/>
+	    <missionstate id="19" description="Return back to the side you choosed and give the charged Ghost Charm."/>
+	    <missionstate id="20" description="Talk to Azerus to continue with your missions."/>
+	</mission>
+	<mission name="Mission 07: A Fishy Mission" storageid="100086" startvalue="21" endvalue="23">
+	    <missionstate id="21" description="In this mission you will go under the sea.\nYalahari wants you to kill the 3 Quara leaders.\nRather than fighting any Quara leaders Palimuth will instead send you to find the cause for the Quaras aggressive behavior."/>
+	    <missionstate id="22" description="Return back to the side you choosed."/>
+	    <missionstate id="23" description="Talk to Azerus to continue with your missions."/>
+	</mission>
+	<mission name="Mission 08: Dangerous Machinations" storageid="100086" startvalue="24" endvalue="26">
+	    <missionstate id="24" description="For this mission the Yalahari requests you go to the Factory Quarter and find a pattern crystal, which will be used to supply weapons to help take control of the city.\nPalimuth will send you there to use the crystal to supply food for the city."/>
+	    <missionstate id="25" description="Return back to the side you choosed."/>
+	    <missionstate id="26" description="Talk to Azerus to continue with your missions."/>
+	</mission>
+	<mission name="Mission 09: Decision" storageid="100086" startvalue="27" endvalue="28">
+	    <missionstate id="27" description="You now need to decide between supporting Palimuth or the Yalahari's goal. If you have decided, go to one of them and say mission."/>
+	    <missionstate id="28" description="You now need to decide between supporting Palimuth or the Yalahari's goal. If you have decided, go to one of them and say mission."/>
+	</mission>
+	<mission name="Mission 10: The Final Battle" storageid="100086" startvalue="29" endvalue="31">
+	    <missionstate id="29" description="In this mission, you will gather a team for the final battle in the festivity hall."/>
+	    <missionstate id="30" description="Return to the side you choosed and report about your mission and you will be greatly rewarded."/>
+	    <missionstate id="31" description="You have completed all the missions.\nYou can now open the door to get your reward."/>
+	    <missionstate id="32" description="You have completed In Service Of Yalahar Quest."/>
+	</mission>
+	</quest>
+	<quest name="The Ultimate Challenges" startstorageid="100087" startstoragevalue="1">
+	    <mission name="Barbarian Arena - Greenhorn Mode" storageid="100087" startvalue="1" endvalue="2">
+	    <missionstate id="1" description="You have to defeated all enemies in this mode."/>
+	    <missionstate id="2" description="You have defeated all enemies in this mode."/>
+	</mission>
+	    <mission name="Barbarian Arena - Scrapper Mode" storageid="100087" startvalue="3" endvalue="4">
+	    <missionstate id="3" description="You have to defeated all enemies in this mode."/>
+	    <missionstate id="4" description="You have defeated all enemies in this mode."/>
+	</mission>
+	    <mission name="Barbarian Arena - Warlord Mode" storageid="100087" startvalue="5" endvalue="6">
+	    <missionstate id="5" description="You have to defeated all enemies in this mode."/>
+	    <missionstate id="6" description="You have defeated all enemies in this mode."/>
+	</mission>
+	</quest>
+	<quest name="The Queen of the Banshees" startstorageid="100088" startstoragevalue="1">
+	<mission name="Seal 1: The Hidden Seal" storageid="100088" startvalue="1" endvalue="2">
+	    <missionstate id="1" description="You have to find the seal in order to complete it."/>
+	    <missionstate id="2" description="You have found the seal."/>
+	</mission>
+	<mission name="Seal 6: Seal of Logic" storageid="100089" startvalue="1" endvalue="2">
+	    <missionstate id="1" description="You have to find the seal in order to complete it."/>
+	    <missionstate id="2" description="You have found the seal."/>
+	</mission>
+	<mission name="Seal 5: The seal of truth path" storageid="100090" startvalue="1" endvalue="2">
+	    <missionstate id="1" description="You have to find the seal in order to complete it."/>
+	    <missionstate id="2" description="You have found the seal."/>
+	</mission>
+	<mission name="Seal 4: The seal of sacrifice" storageid="100091" startvalue="1" endvalue="2">
+	    <missionstate id="1" description="You have to find the seal in order to complete it."/>
+	    <missionstate id="2" description="You have found the seal."/>
+	</mission>
+	<mission name="Seal 3: Seal of Demonrage" storageid="100092" startvalue="1" endvalue="2">
+	    <missionstate id="1" description="You have to find the seal in order to complete it."/>
+	    <missionstate id="2" description="You have found the seal."/>
+	</mission>
+	<mission name="Seal 2: The plague seal" storageid="100093" startvalue="1" endvalue="2">
+	    <missionstate id="1" description="You have to find the seal in order to complete it."/>
+	    <missionstate id="2" description="You have found the seal."/>
+	</mission>
+	<mission name="Seal 7: The Kiss of the Banshee Queen" storageid="100094" startvalue="1" endvalue="2">
+	    <missionstate id="1" description="You have to find the seal in order to complete it."/>
+	    <missionstate id="2" description="You have found the seal."/>
+	</mission>
+	</quest>
+	<quest name="The Pits of Inferno" startstorageid="100095" startstoragevalue="1">
+	<mission name="Acces to shortcuts" storageid="100096" startvalue="1" endvalue="2">
+		<missionstate id="1" description="At the end of this quest you will be able to use shortcuts."/>
+		<missionstate id="2" description="Unlocked shortcut and now do not have to move all the 15 lever and you can use the teleport in the necromancer's house."/>
+	</mission>
+	<mission name="Thrones: Verminor" storageid="100097" startvalue="1" endvalue="2">
+		<missionstate id="1" description="You have to find the throne of Veminor and absorb it's spirit."/>
+		<missionstate id="2" description="You have already absorbed some of Veminor's spirit."/>
+	</mission>
+	<mission name="Thrones: Infernatil" storageid="100098" startvalue="1" endvalue="2">
+		<missionstate id="1" description="You have to find the throne of Infernatil and absorb it's spirit."/>
+		<missionstate id="2" description="You have already absorbed some of Infernatil's spirit."/>
+	</mission>
+	<mission name="Thrones: Tafariel" storageid="100099" startvalue="1" endvalue="2">
+		<missionstate id="1" description="You have to find the throne of Tafariel and absorb it's spirit."/>
+		<missionstate id="2" description="You have already absorbed some of Tafariel's spirit."/>
+	</mission>
+	<mission name="Thrones: Apocalypse" storageid="100100" startvalue="1" endvalue="2">
+		<missionstate id="1" description="You have to find the throne of Apocalypse and absorb it's spirit."/>
+		<missionstate id="2" description="You have already absorbed some of Apocalypse's spirit."/>
+	</mission>
+	<mission name="Thrones: Pumin" storageid="100101" startvalue="1" endvalue="2">
+		<missionstate id="1" description="You have to find the throne of Pumin and absorb it's spirit."/>
+		<missionstate id="2" description="You have already absorbed some of Pumin's spirit."/>
+	</mission>
+	<mission name="Thrones: Ashfalor" storageid="100102" startvalue="1" endvalue="2">
+		<missionstate id="1" description="You have to find the throne of Ashfalor and absorb it's spirit."/>
+		<missionstate id="2" description="You have already absorbed some of Ashfalor's spirit."/>
+	</mission>
+	<mission name="Thrones: Bazir" storageid="100103" startvalue="1" endvalue="2">
+		<missionstate id="1" description="You have to find the throne of Bazir and absorb it's spirit."/>
+		<missionstate id="2" description="You have already absorbed some of Bazir's spirit."/>
+	</mission>
+	</quest>
+	<quest name="Annihilator Quest" startstorageid="5000" startstoragevalue="1">
+	<mission name="Annihilator" storageid="5000" startvalue="1" endvalue="1">
+	        <missionstate id="1" description="You have faced the 6 Demon's of hell."/>
+	</mission>
+	</quest>
+	<quest name="Behemoth Quest" startstorageid="100104" startstoragevalue="1">
+	<mission name="Behemoth" storageid="100104" startvalue="1" endvalue="1">
+	        <missionstate id="1" description="You have completed getting through the Behemoth's."/>
+	</mission>
+	</quest>
+	<quest name="Unnatural Selection Quest" startstorageid="100105" startstoragevalue="1">
+	<mission name="Mission 1: Skulled" storageid="100105" startvalue="1" endvalue="3">
+	        <missionstate id="1" description="Lazaran told you about the stolen holy skull also suggested to look for it in the orc fortress north of the mountain."/>
+		<missionstate id="2" description="You found the holy skull! You almost overlooked it in the large pile of bones, but that must be it. Bring it back to Lazaran."/>
+		<missionstate id="3" description="You brought the holy skull back to Lazaran and it's safe again. If it's not stolen again, that is."/>
+	</mission>
+	<mission name="Mission 2: All Around the World" storageid="100105" startvalue="4" endvalue="14">
+	        <missionstate id="4" description="You have a strange skull and are supposed to show him the world. Hmm. If you want to show him as much as possible, you better go up somewhere really high. Why not start with the Edron Academy Tower?"/>
+		<missionstate id="5" description="Now head to Ab'dendriel tower near the boat."/>
+		<missionstate id="6" description="Now head to Femor Hills tower."/>
+		<missionstate id="7" description="Now head to Darashia temple."/>
+		<missionstate id="8" description="Now head to Ankrahmun at the highest pyramid."/>
+		<missionstate id="9" description="Now head to Port Hope, the western watch tower."/>
+		<missionstate id="10" description="Now head to Liberty Bay, Ivory Circle."/>
+		<missionstate id="11" description="Now head to Yalahar shopping tower."/>
+		<missionstate id="12" description="Now head to Svargrond Watchtower."/>
+		<missionstate id="13" description="Now head to Carlin castle in the western tower."/>
+		<missionstate id="14" description="Now return to Lazaran and give him the skull."/>
+	</mission>
+	<mission name="Mission 3: Dance Dance Evolution" storageid="100105" startvalue="15" endvalue="17">
+	        <missionstate id="15" description="Lazaran wants you talk with a priest named Ulala."/>
+		<missionstate id="16" description="Ulala wants you to make Krunus happy by dancing the Krunus dance and Krunus will support our great hunt!"/>
+		<missionstate id="17" description="You have completed the dance, Krunus should be pleased.\nHead back to Ulala and talk about your new mission."/>
+	</mission>
+	<mission name="Mission 4: Bits and Pieces" storageid="100105" startvalue="18" endvalue="19">
+	        <missionstate id="18" description="Ulala wants you to collect 5 teeth of green men, 5 skin of horned ones and 5 skin of snakemen for sacrifice to Pandor."/>
+		<missionstate id="19" description="Ulala is grateful about your work and ready to give you another mission."/>
+	</mission>
+	<mission name="Mission 5: Ray of Light" storageid="100105" startvalue="20" endvalue="22">
+	        <missionstate id="20" description="We need make sure Fasuon is on our side. Please find great crystal of Fasuon in the top of mountain and pray there for his support!"/>
+		<missionstate id="21" description="Fasuon is supporting. Now head back to Ulala."/>
+		<missionstate id="22" description="Ulala saw the light of Fasuon and he is thankful."/>
+	</mission>
+	<mission name="Mission 6: Firewater Burn" storageid="100105" startvalue="23" endvalue="25">
+	        <missionstate id="23" description="Ulala is grateful for your help and sends you back to Lazaran to talk about your mission."/>
+		<missionstate id="24" description="Lazaran has asked you for a Pot of Beer, in his own words. You can then fill the pot with this beer and return to complete this mission and if you gather your Tribal Crest return to Cael and you will be rewarded."/>
+		<missionstate id="25" description="You have completed all the missions."/>
+	</mission>
+	</quest>
+	<quest name="Dreamers Challenge Quest" startstorageid="100106" startstoragevalue="1">
+	<mission name="Mission 1 - Getting there" storageid="100106" startvalue="1" endvalue="2">
+	        <missionstate id="1" description="Hugo has hidden the path."/>
+		<missionstate id="2" description="You have founded the hidden path and made it to next level."/>
+	</mission>
+	<mission name="Mission 2 - Matching color game" storageid="100106" startvalue="3" endvalue="5">
+	        <missionstate id="3" description="The first Challenge is a Matching color game. You must use the switches to match the 4 colors into their designated spots."/>
+		<missionstate id="4" description="The walls will protect you against the monster. In order to complete this challenge you have to flick all switches in right order and enter the teleport fast as possible."/>
+		<missionstate id="5" description="You have completed this mission."/>
+	</mission>
+	<mission name="Mission 3 - Tic Tac Toe puzzle" storageid="100106" startvalue="6" endvalue="8">
+	        <missionstate id="6" description="You'll have to find the book of the lost heros."/>
+		<missionstate id="7" description="Now you have to solve the tic-tac-toe puzzle, by using the help of the book."/>
+		<missionstate id="8" description="You have completed this mission."/>
+	</mission>	
+	<mission name="Mission 4 - Dream room" storageid="100106" startvalue="9" endvalue="12">
+	        <missionstate id="9" description="To start the Dream Room, you need to make 4 sacrifice. There are 4 spots. The north will be a Life Ring. The south a Death Ring. Go to the west and go up and move the switch to make the well fill with Poison and turn the electricity on. Now on the West pour water."/>
+		<missionstate id="10" description="Step into a teleporter, this, according to the tibian history is when you start to dreamwalk. The paths you will find throughout the way are places who are called Dreampaths to the Dream Realm. As you are asleep, the monsters in there are just decorative and won't do you any harm."/>
+		<missionstate id="11" description="At the Dream Realm talk to your leader from the Brotherhood of Bones or the Nightmare Knights, they will have additional missions for you."/>
+		<missionstate id="12" description="You have completed this mission."/>
+	</mission>
+	<mission name="Mission 5 - Prove your deeds" storageid="100106" startvalue="13" endvalue="14">
+	        <missionstate id="13" description="Your mission is to collect 500 Demonic Essence."/>
+		<missionstate id="14" description="You have completed this mission."/>
+	</mission>
+	<mission name="Mission 6 - Slaying more demons" storageid="100106" startvalue="15" endvalue="16">
+	        <missionstate id="15" description="Your mission is to collect 1000 more Demonic Essences."/>
+		<missionstate id="16" description="You have completed this mission."/>
+	</mission>
+	<mission name="Mission 7 - Slaughtering" storageid="100106" startvalue="17" endvalue="18">
+	        <missionstate id="17" description="Your mission is to collect 1500 more Demonic Essences."/>
+		<missionstate id="18" description="You have completed this mission."/>
+	</mission>
+	</quest>
+	<quest name="Demon Helmet Quest" startstorageid="100136" startstoragevalue="1">
+	<mission name="Demon" storageid="100136" startvalue="1" endvalue="1">
+	        <missionstate id="1" description="You have completed Demon Helmet Quest."/>
+	</mission> 
+	</quest> 
+	<quest name="The Ancient Tombs Quest" startstorageid="100147" startstoragevalue="1">
+	<mission name="Rahemos" storageid="100148" startvalue="1" endvalue="1">
+	        <missionstate id="1" description="You have founded the Helmet Pice."/>
+	</mission>
+	<mission name="Mahrdis' Cauldron" storageid="100149" startvalue="1" endvalue="1">
+	        <missionstate id="1" description="You have founded the Helmet Ornament."/>
+	</mission> 
+	<mission name="Thalas" storageid="100150" startvalue="1" endvalue="1">
+	        <missionstate id="1" description="You have founded the Gem Holder."/>
+	</mission> 
+	<mission name="Morguthis" storageid="100151" startvalue="1" endvalue="1">
+	        <missionstate id="1" description="You have founded the Right Horn."/>
+	</mission> 
+	<mission name="Vashresamun's Chorus Lane" storageid="100152" startvalue="1" endvalue="1">
+	        <missionstate id="1" description="You have founded the Left Horn."/>
+	</mission> 
+	<mission name="Diptrah" storageid="100153" startvalue="1" endvalue="1">
+	        <missionstate id="1" description="You have founded the Damaged Helmet."/>
+	</mission> 
+	<mission name="Omruc's Lookout" storageid="100154" startvalue="1" endvalue="1">
+	        <missionstate id="1" description="You have founded the Helmet Adornment."/>
+	</mission>
+	<mission name="The Seven Pieces" storageid="100155" startvalue="1" endvalue="1">
+	        <missionstate id="1" description="You have put the pices together and recreated the Helmet of the Ancient."/>
+	</mission>
+	</quest>  
+	<quest name="The Travelling Trader Quest" startstorageid="100158" startstoragevalue="1">
+	<mission name="Mission 1: Trophy" storageid="100158" startvalue="1" endvalue="2">
+	        <missionstate id="1" description="Your first mission for becoming a recognized trader is to bring the traveling salesman Rashid a Deer Trophy."/>
+		<missionstate id="2" description="You have completed this mission. Talk with Rashid to continue."/>
+	</mission> 
+	<mission name="Mission 2: Delivery" storageid="100158" startvalue="3" endvalue="6">
+	        <missionstate id="3" description="Your mission is to get the package from Willard the weapon dealer at Edron."/>
+		<missionstate id="4" description="Willard forgot to pick it up from Snake Eye at Outlaw Camp. So he wants you to go and pick it up from Snake Eye."/>
+		<missionstate id="5" description="Now bring back the package to Rashid."/>
+		<missionstate id="6" description="You have completed this mission. Talk with Rashid to continue."/>
+	</mission> 
+	<mission name="Mission 3: Cheese" storageid="100158" startvalue="7" endvalue="9">
+	        <missionstate id="7" description="Rashid wants you to pick his special order from Miraia in Darashia. But you have to be quick, Scarab cheese can rot really fast in high temperature."/>
+		<missionstate id="8" description="Now quickly bring back the Scarab cheese to Rashid."/>
+		<missionstate id="9" description="You have completed this mission. Talk with Rashid to continue."/>
+	</mission>
+	<mission name="Mission 4: Vase" storageid="100158" startvalue="10" endvalue="12">
+	        <missionstate id="10" description="Rashid have ordered a special elven vase from Briasol in Ab'Dendriel. He asks you to buy it from Briasol and bring it back.\nBut you should be carefully, since the vase is very fragile."/>
+		<missionstate id="11" description="Now carefully bring the vase back to Rashid."/>
+		<missionstate id="12" description="You have completed this mission. Talk with Rashid to continue."/>
+	</mission> 
+	<mission name="Mission 5: Make a deal" storageid="100158" startvalue="13" endvalue="15">
+	        <missionstate id="13" description="This time, Rashid is testing your trading skills to buy a Crimson Sword from Uzgod. But it have to be less than 400 gold coins and the quality has to be perfect."/>
+		<missionstate id="14" description="Now bring the sword back to Rashid."/>
+		<missionstate id="15" description="You have completed this mission. Talk with Rashid to continue."/>
+	</mission>  
+	<mission name="Mission 6: Goldfish" storageid="100158" startvalue="16" endvalue="17">
+	        <missionstate id="16" description="Rashid wants you to bring him a Goldfish Bowl."/>
+		<missionstate id="17" description="You have completed this mission. Talk with Rashid to continue."/>
+	</mission> 
+	<mission name="Mission 7: Declare" storageid="100158" startvalue="18" endvalue="18">
+		<missionstate id="18" description="Rashid has declare you as one of his recognized traders, and now you are able to trade with him anytime.."/>
+	</mission>
+	</quest>    
+	<quest name="The Postman Missions" startstorageid="100171" startstoragevalue="1">
+	<mission name="Method" storageid="100171" startvalue="1" endvalue="1">
+	        <missionstate id="1" description="You have joined the Postman guild."/>
+	</mission>
+	<mission name="Mission 1 - Check Postal Routes" storageid="100171" startvalue="2" endvalue="7">
+	        <missionstate id="2" description="First travel with Captain Bluebear's ship from Thais to Carlin."/>
+		<missionstate id="3" description="Head to Fermor Hills and travel with Uzon to Edron."/>
+		<missionstate id="4" description="Travel with Captain Seahorse to the city of Venore."/>
+		<missionstate id="5" description="Find the technomancer Brodrosch and travel with him to the Isle of Cormaya."/>
+		<missionstate id="6" description="Now report back to Kevin about your mission."/>
+		<missionstate id="7" description="You have finished this mission."/>
+	</mission> 
+	<mission name="Mission 2 - Fix Mailbox" storageid="100171" startvalue="8" endvalue="10">
+	        <missionstate id="8" description="Kevin wants you to repair a broken mailbox top of Folda mountain."/>
+		<missionstate id="9" description="Now return to Kevin and ask for a advancement."/>
+		<missionstate id="10" description="You have finished this mission."/>
+	</mission> 
+	<mission name="Mission 3 - Bill Delivery" storageid="100171" startvalue="11" endvalue="13">
+	        <missionstate id="11" description="Your mission is to deliver a bill for a Magician Hat, to a famous magician."/>
+		<missionstate id="12" description="Now return to Kevin and report about your mission."/>
+		<missionstate id="13" description="You have finished this mission."/>
+	</mission> 
+	<mission name="Mission 4 - Aggressive Dogs" storageid="100171" startvalue="14" endvalue="15">
+	        <missionstate id="14" description="The Postman office are running low on bones in the Post Officer's Fund and need you to collect 20 bones. After ask Kevin for a advancement."/>
+		<missionstate id="15" description="You have finished this mission."/>
+	</mission> 
+	<mission name="Mission 5 - Present Delivery" storageid="100171" startvalue="16" endvalue="18">
+	        <missionstate id="16" description="Your mission is to deliver a present to Dermot on Fibula."/>
+		<missionstate id="17" description="Now return to Kevin and report about your mission."/>
+		<missionstate id="18" description="You have finished this mission."/>
+	</mission> 
+	<mission name="Mission 6 - New Uniforms" storageid="100171" startvalue="19" endvalue="27">
+	        <missionstate id="19" description="Kevin wants you to ask Hugo for new uniforms."/>
+		<missionstate id="20" description="Now return to Kevin and report about your mission."/>
+	        <missionstate id="21" description="Now he wants you to ask Talphion for new dress patterns."/>
+		<missionstate id="22" description="Now return to Kevin and report about your mission."/>
+	        <missionstate id="23" description="Now he wants you to talk with Queen Eloise in Carlin."/>
+		<missionstate id="24" description="Now return to Kevin and report about your mission."/>
+	        <missionstate id="25" description="Now he wants you head to Noodles in Thais and let him SNIFF some samples."/>
+		<missionstate id="26" description="Now return to Kevin and report about your mission."/>
+		<missionstate id="27" description="Now return to Hugo and talk about the new dress then you have finished this mission."/>
+	</mission> 
+	<mission name="Mission 7 - Measurements" storageid="100171" startvalue="28" endvalue="30">
+	        <missionstate id="28" description="Hugo told Kevin that he needs the measurements of all of the Post Officers. So talk with Ben, Lokur, Dove, Liane, Chrystal and Olrik about measurements."/>
+		<missionstate id="29" description="Now return to Kevin and report about your mission."/>
+		<missionstate id="30" description="You have finished this mission."/>
+	</mission> 
+	<mission name="Mission 8 - Missing Courier" storageid="100171" startvalue="31" endvalue="32">
+	        <missionstate id="31" description="Kevin told you that the mail courier Waldo is missing, and that you need to find him, or at least his posthorn."/>
+		<missionstate id="32" description="You have finished this mission."/>
+	</mission>
+	<mission name="Mission 9 - Dear Santa" storageid="100171" startvalue="33" endvalue="35">
+	        <missionstate id="33" description="This time Kevin wants you to deliver some letters to Santa Claus on Vega."/>
+		<missionstate id="34" description="Now return to Kevin and report about your mission."/>
+		<missionstate id="35" description="You have finished this mission."/>
+	</mission>
+	<mission name="Mission 10 - Mintwallin" storageid="100171" startvalue="36" endvalue="38">
+	        <missionstate id="36" description="Kevin gave you a letter to deliver to Markwin."/>
+		<missionstate id="37" description="Now return to Kevin and report about your mission."/>
+		<missionstate id="38" description="You have finished this mission."/>
+	</mission> 
+	</quest>  
+</quests>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Lazaran" script="unna.lua" walkinterval="2000" floorchange="0">
+	<look type="128" head="17" body="54" legs="114" feet="0" addons="2"/>
+	<parameters>
+		<parameter key="message_greet" value="Me greet."/>
+	</parameters>
+</npc>

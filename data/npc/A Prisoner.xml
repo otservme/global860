@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="A Prisoner" script="data/npc/scripts/A Prisoner.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="130" head="81" body="40" legs="55" feet="94" addons="0"/>
+	<parameters>
+<parameter key="message_greet" value="Huh? What? I can see! Wow! A non-mino. Did they capture you as well?"/>
+<parameter key="message_walkaway" value="Next time we should talk about my surreal numbers."/>
+<parameter key="message_farewell" value="Next time we should talk about my surreal numbers."/>
+	</parameters>
+</npc>

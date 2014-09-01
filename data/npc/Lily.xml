@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Lily" script="data/npc/scripts/Lily.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="138" head="78" body="101" legs="86" feet="115" addons="0"/>
+</npc>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Tarak" script="data/npc/scripts/Tarak.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="153" head="115" body="31" legs="28" feet="0" addons="0"/>
+<parameters>
+<parameter key="message_greet" value="Hi |PLAYERNAME|. Can I interest you in a trip to the {monument tower}?"/>
+ <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="trip" />
+        <parameter key="keyword_reply1" value="I can take you to {monument tower}." />
+        <parameter key="message_farewell" value="Good Bye, |PLAYERNAME|."/>
+		<parameter key="message_walkaway" value="Good Bye, |PLAYERNAME|." />
+		</parameters>
+</npc>
+
+
+

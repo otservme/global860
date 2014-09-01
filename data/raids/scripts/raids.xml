@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raids>
+	<raid name="Barbarian" file="Barbarian.xml" interval2="30" margin="1800" enabled="yes"/>
+	<raid name="Demodras" file="Demodras.xml" interval2="35" margin="1800" enabled="yes"/>
+	<raid name="Elfs" file="Elfs.xml" interval2="30" margin="1800" enabled="yes"/>
+	<raid name="Ferumbras" file="Ferumbras.xml" interval2="60" margin="1800" enabled="yes"/>
+	<raid name="Necropharus" file="Necropharus.xml" interval2="30" margin="1800" enabled="yes"/>
+	<raid name="OrcsThais" file="OrcsThais.xml" interval2="30" margin="1800" enabled="yes"/>
+	<raid name="Orshabaal" file="Orshabaal.xml" interval2="45" margin="1800" enabled="yes"/>
+	<raid name="Pirates" file="Pirates.xml" interval2="30" margin="1800" enabled="yes"/>
+	<raid name="Quara" file="Quara.xml" interval2="30" margin="1800" enabled="yes"/>
+	<raid name="Rats" file="Rats.xml" interval2="30" margin="1800" enabled="yes"/>
+	<raid name="Scarabs" file="Scarabs.xml" interval2="30" margin="1800" enabled="yes"/>
+	<raid name="The Old Widow" file="The Old Widow.xml" interval2="35" margin="1800" enabled="yes"/>
+	<raid name="UndeadDarashia" file="UndeadDarashia.xml" interval2="30" margin="1800" enabled="yes"/>
+	<raid name="UndeadArmy" file="UndeadArmy.xml" interval2="30" margin="1800" enabled="yes"/>
+	<raid name="Wolfsraid" file="Wolfsraid.xml" interval2="25" margin="1800" enabled="yes"/>
+	<raid name="Necropharus" file="Necropharus.xml" interval2="30" margin="1800" enabled="yes"/>
+	<raid name="Hornedfox" file="Hornedfox.xml" interval2="30" margin="1800" enabled="yes"/>
+	<raid name="Halloweenhare" file="Halloweenhare.xml" interval2="40" margin="1800" enabled="yes"/>
+	<raid name="Undead Jester" file="Undead Jester.xml" interval2="40" margin="1800" enabled="yes"/>
+	<raid name="goblin" file="grynch clan goblin.xml" interval2="40" margin="1800" enabled="yes"/>
+	<raid name="Morgaroth" file="Morgaroth.xml" interval2="40" margin="1800" enabled="yes"/>
+</raids>
